@@ -1,4 +1,4 @@
-import 'antd/dist/reset.css';
+// import 'antd/dist/reset.css';
 
 /** @type { import('@storybook/react').Preview } */
 const preview = {
