@@ -16,9 +16,10 @@ export default defineConfig({
     preprocessorOptions: {
       less: {
         modifyVars: {
-          '@import': "'~antd/lib/style/themes/dark.less'",
+          'hack': `true; @import "node_modules/antd/lib/style/themes/dark.less";`,
           '@primary-color': '#e3ad50',
           '@border-radius-base': '8px',
+          // '@import': "'~antd/lib/style/themes/dark.less'",
         },
         // For LESS of Ant Design 
         javascriptEnabled: true,
