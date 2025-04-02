@@ -1,6 +1,6 @@
-# React + Vite + Storybook
+# React + Vite + Storybook + Theme + I18n
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A biz component template based on antd(V4), which provides bookstory demo with Vite、 HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
@@ -17,7 +17,6 @@ If you are developing a production application, we recommend using TypeScript an
 ```
 // run
 rm -rf node_modules/.cache/storybook && npm run storybook
-
 
 ```
 
@@ -57,8 +56,17 @@ npm run storybook
 npm install antd
 npm install @emotion/react
 
+npm start 👉🏻👉🏻👉🏻👉🏻👉🏻 clear cache and bootstrap
+`or`
 npm run storybook 👉🏻👉🏻👉🏻👉🏻👉🏻 bootstrap
 ```
 
 💡 Why @emotion/react？
 Storybook + Vite use @emotion/react to process CSS，which is also required by Ant Design for CSS compatibility
+
+
+## screenshot
+![overview of all components](docs/demo2.png)
+![overview of one compoent](docs/demo3.png)
+![usecase of one compoent](docs/demo4.png)
+![global search](docs/demo5.png)
