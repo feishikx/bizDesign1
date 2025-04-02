@@ -2,6 +2,7 @@ import { Meta, Story } from '@storybook/addon-docs';
 import * as ButtonStories from './Button.stories';
 import * as InputStories from './Input.stories';
 import * as SelectStories from './Select.stories';
+import * as MyLessStories from './MyLess.stories';
 
 
 <Meta title="Overview" />
@@ -9,6 +10,11 @@ import * as SelectStories from './Select.stories';
 # 组件总览
 
 这里是所有组件的汇总展示以便查阅。
+
+## 全局less变量(自定义)
+<div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
+    <Story of={MyLessStories.Default} name="Default MyLess" />
+</div>
 
 ## 按钮组件
 <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>

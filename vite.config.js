@@ -18,6 +18,7 @@ export default defineConfig({
         modifyVars: {
           '@primary-color': '#e3ad50',
           '@link-color': '#e3ad50',
+          '@background-color': '#141414',
           '@border-radius-base': '8px',
         },
         // For LESS of Ant Design 
