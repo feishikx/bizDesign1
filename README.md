@@ -21,6 +21,29 @@ rm -rf node_modules/.cache/storybook && npm run storybook
 
 ```
 
+## docs for a new component
+1. Auto generate documentation by storybook itself by add `tags: ['autodocs']` in the *.stories.jsx file
+```
+export default {
+  title: 'Components/Button',
+  component: Button,
+  tags: ['autodocs'], 👉🏻👉🏻👉🏻 💡💡💡
+  ...
+};
+```
+2. Add the stories of the component into `Overview.mdx` which will automatically display in the overview page
+```
+// step1: import
+import * as MyLessStories from './MyLess.stories';
+
+
+// step2: usage
+## 全局less变量(自定义)
+<div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
+    <Story of={MyLessStories.Default} name="Default MyLess" />
+</div>
+```
+
 
 ## initialization
 ```

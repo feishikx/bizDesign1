@@ -1,8 +1,8 @@
-import React from 'react';
-import { Button as AntButton } from 'antd';
-import styles from './Button.module.css';
+import React from "react";
+import { Button as AntButton } from "antd";
+import styles from "./Button.module.css";
 
-const Button = ({ children, type = 'default', disabled = false, ...rest }) => {
+const Button = ({ children, type = "default", disabled = false, ...rest }) => {
   return (
     <AntButton type={type} disabled={disabled} className={styles.customButton} {...rest}>
       {children}
